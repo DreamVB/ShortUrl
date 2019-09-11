@@ -8,7 +8,7 @@ Place all the files onto your server in a folder called <b> shorturl<//b>
 
 <h3>Accessing the service</h3>
 
-Type in your browser http://localhost/shortutl That's it your good to go
+Type in your browser http://localhost/shorturl/ That's it your good to go
 
 Enjoy.......
 
