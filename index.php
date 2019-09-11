@@ -52,11 +52,33 @@
 					<p>&nbsp;</p>
 					<p>><span><?php echo($shorturl_msg)?></span></p>
 					<input id="url" class="txtfind txturl dm-center" value="url">
+					
+					<p>&nbsp;</p>
+					
+					<?php
+						//Redirect back to front page.						ob_end_clean();
+						$link = "http://" . $_SERVER['HTTP_HOST'] . $root_path;
+						
+						echo('
+							<span class="findBtn" onclick="_goHome(\'' . $link . '\')">Go back Generate New Link</span>
+						');
+					?>
+					
+					
+					
+					
+				
+					
 				</div>
 			</div>
 		</div>
 		
 		<script>
+		
+		
+function _goHome(s){
+	document.location.href = s;
+}
 		
 function runScript(e) {
     if (e.keyCode == 13) {
