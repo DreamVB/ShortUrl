@@ -1,0 +1,143 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+body,html{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.wrapper{
+	margin: auto; 0;
+	max-width: 840px;
+}
+
+.main-background{
+	background-color: #fff;
+}
+
+header h1{
+	text-align: center;
+	font-size: 38px;
+	display: block;
+	margin-top: 48px;
+}
+
+.SearchBox{
+	text-align: center;
+	padding: 20px;
+}
+
+.txtfind{
+	display: inline-block;
+	font-family:Verdana;
+	font-size: 16px;
+	width: 80%;
+	outline: none;
+	border: 1px solid #ddd;
+	padding: 12px 20px;
+	transition:0.6s ease;
+	color: #444;
+}
+
+.txturl{
+	max-width: 480px;
+}
+
+.txtfind{
+	border-left: 6px solid #478f00;
+}
+
+.findBtn{
+	outline: none;
+	border: 1px solid #ddd;
+	vertical-align: top;
+	font-family:Arial;
+	font-size: 16px;
+	display: inline-block;
+	padding: 9.5px 20px;
+	background-color: #ddd;
+	color: #111;
+	cursor: pointer;
+	font-weight: 600;
+	margin: 0;
+	color: #555;
+	outline: none;
+}
+
+.findBtn:hover{
+	background-color: #ccc;
+}
+
+.note-error{
+	background-color: #eee;
+	color: #555;
+	padding: 8px 12px;
+}
+
+.pad{margin: 8px;}
+.pad-top{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 412px) {
+	.txtfind{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.findBtn{
+		display: block;
+		width: 100%;
+	}
+	.note-error{
+		text-align: center;
+		margin: 4px;
+	}
+	header h1{
+		font-size: 28px;
+	}
+}
+
+h1 span{
+	border-top: 6px solid #478f00;
+	background-color: #fff;
+	padding: 8px 20px;
+}
+
+p span{
+	background-color: #555;
+	color: #fff!important;
+	padding: 8px 16px;
+}
+
+.dm-center{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+	color: #888;
+	font-weight: 300;
+}
+
+.panel{
+	padding: 20px;
+	background-color: #fff;
+}
+
