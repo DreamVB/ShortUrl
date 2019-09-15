@@ -15,7 +15,9 @@ $page_title = "URL Shortner";
 $page_subHeader = "Use this URL Shortener service to shorten your long URLs!";
 $shorturl_msg = "Here is your short url:";
 
-$root_path = "//shorturl//";
+$root_path = "/shorturl/";
 
 $redirct_waitTime = 4;
+
+$EnableShareLink = ""; // To disable share widget set value to none
 ?>
